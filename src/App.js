@@ -1,3 +1,4 @@
+import Customers from "./Components/Customers";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
@@ -8,6 +9,7 @@ function App() {
      <Header/>
      <Hero/>
      <Projects/>
+     <Customers/>
     </>
   );
 }
