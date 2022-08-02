@@ -15,7 +15,7 @@ const Works = () => {
           </div>
           <div className='grid md:grid-rows-[1fr,40%] gap-5'>
               <div className="relative h-[300px] md:h-auto px-3 py-3 flex items-end"><img src="/images/image2.png" alt='space' className='rounded-md h-full w-full absolute top-0 left-0 object-cover object-center md:object-top' /><div className="text-white font-[500] relative z-10">Meeting corner</div></div>
-              <div className="relative h-[300px] md:h-auto px-3 py-3 flex items-end"><img src="/images/image5.png" alt='space' className='rounded-md h-full w-full absolute top-0 left-0 object-cover object-bottom md:object-top' /><div className="text-white font-[500] relative z-10">Single working space</div></div>
+              <div className="relative h-[300px] md:h-auto px-3 py-3 flex items-end"><img src="/images/image5.png" alt='space' className='rounded-md h-full w-full absolute top-0 left-0 object-cover object-bottom' /><div className="text-white font-[500] relative z-10">Single working space</div></div>
           </div>
           <div className='grid md:grid-rows-[1fr,1fr] gap-5'>
               <div className="relative h-[300px] md:h-auto px-3 py-3 flex items-end"><img src="/images/image3.png" alt='space' className='rounded-md h-full w-full absolute top-0 left-0 object-cover object-center md:object-top' /><div className="text-white font-[500]  h-[300px] md:h-auto z-10">Guest meeting room</div></div>
