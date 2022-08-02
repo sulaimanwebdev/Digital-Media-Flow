@@ -2,7 +2,7 @@ import Customers from "./Components/Customers";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
-import Projects from "./Components/Projects";
+import Works from "./Components/Works";
 import Testimonials from "./Components/Testimonials";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
      <Header/>
      <Hero/>
-     <Projects/>
+     <Works/>
      <Customers/>
      <Testimonials/>
      <Footer/>
