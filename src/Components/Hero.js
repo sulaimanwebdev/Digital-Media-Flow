@@ -7,7 +7,8 @@ const Hero = () => {
   </Helmet>
   return (
     <>
-   <div className="w-full mx-auto max-w-[1300px] gap-10 px-5 flex items-center justify-between mt-4">
+    <div className="w-full relative">
+    <div className="w-full mx-auto max-w-[1300px] gap-10 px-5 flex items-center justify-between mt-4">
       <div className=''>
       <div className='text-[35px] font-[700] mb-4 text-[#111029]'>We build crypto apps and do <span className='text-[#FF6800]'>digital Marketing</span> to grow your business</div>
       <div className='text-[16px] leading-loose text-[#6B6B6B] font-[400]'>Digital Media Flow is an award-winning digital  marketing, Crypto app development agency with offices in New York City and Miami.  Our team comprises an innovative group of marketers, designers, software engineers, copywriters, and bloggers.  </div>
@@ -18,7 +19,8 @@ const Hero = () => {
      <img src="/images/dots.svg" alt="dots" className='absolute bottom-0 -left-14' />
     </div>
     </div>
-    <img src="/images/line1.svg" alt="line" className='absolute top-[700px] left-0 w-full' />
+    <img src="/images/line1.svg" alt="line" className='absolute -bottom-[500px] left-0 w-full' />
+    </div>
     </>
   )
 }
