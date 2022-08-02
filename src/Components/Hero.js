@@ -7,7 +7,7 @@ const Hero = () => {
   </Helmet>
   return (
     <>
-    <div id='home' className="w-full relative mt-[60px] xl:mt-0">
+    <div id='home' className="scroll-my-46 w-full relative mt-[60px] xl:mt-0">
     <div className="w-full mx-auto max-w-[1300px] gap-10 px-5 flex items-center flex-col md2:flex-row justify-between mt-4">
       <div className='relative z-10'>
       <div className='text-[35px] font-[700] mb-4 text-[#111029]'>We build crypto apps and do <span className='text-[#FF6800]'>digital Marketing</span> to grow your business</div>
